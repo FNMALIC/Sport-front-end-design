@@ -7,41 +7,151 @@
 <meta name="Description" content="Enter your description here"/>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-<link rel="stylesheet" href="Assets/css/style.css">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Assets/css/style.css">
 <title>FlexUp</title>
-<style>
-  
-.Us-better{
-  background: url(Assets/img/homebg1.jpg);
-  background-size: cover;
-}
-h2{
-  font-family: play,sans-serif;
-}
-.Uter{
-  padding-left:15px;
-  padding-right:15px;
-
-}
-.circle{
-  width: 128px;
-  height: 128px;
-  border-radius:50%;
-  background-color: transparent;
-  border-width: 2px;
-  border-color:black ;
-  border-style: solid;
-  align-items: center;
-  /* padding: 220px; */
-}
-</style>
+ <style>
+ 
+ </style>
 </head>
 <body>
     <!-- header -->
 <header>
+  
+  <div class="logo-container">
+    <h3 class="logo">
+      <img src="Assets/img/logo.webp" class="img-fluid" alt="">
+    </h3>
+</div>
+  <div class="contain" >
+    <input type="checkbox" name="" id="check">
+    
+
+    <div class="nav-btn">
+      <div class="nav-links">
+          <ul>
+              <li class="nav-link" style="--i: .6s">
+                  <a href="#">Home</a>
+              </li>
+              <li class="nav-link" style="--i: .85s">
+                  <a href="#">Menu</i></a>
+                  <div class="dropdown">
+                      <ul>
+                          <li class="dropdown-link">
+                              <a href="#">Link 1</a>
+                          </li>
+                          <li class="dropdown-link">
+                              <a href="#">Link 2</a>
+                          </li>
+                          <li class="dropdown-link">
+                              <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
+                              <div class="dropdown second">
+                                  <ul>
+                                      <li class="dropdown-link">
+                                          <a href="#">Link 1</a>
+                                      </li>
+                                      <li class="dropdown-link">
+                                          <a href="#">Link 2</a>
+                                      </li>
+                                      <li class="dropdown-link">
+                                          <a href="#">Link 3</a>
+                                      </li>
+                                      <li class="dropdown-link">
+                                          <a href="#">More<i class="fas fa-caret-down"></i></a>
+                                          <div class="dropdown second">
+                                              <ul>
+                                                  <li class="dropdown-link">
+                                                      <a href="#">Link 1</a>
+                                                  </li>
+                                                  <li class="dropdown-link">
+                                                      <a href="#">Link 2</a>
+                                                  </li>
+                                                  <li class="dropdown-link">
+                                                      <a href="#">Link 3</a>
+                                                  </li>
+                                                  <div class="arrow"></div>
+                                              </ul>
+                                          </div>
+                                      </li>
+                                      <div class="arrow"></div>
+                                  </ul>
+                              </div>
+                          </li>
+                          <li class="dropdown-link">
+                              <a href="#">Link 4</a>
+                          </li>
+                          <div class="arrow"></div>
+                      </ul>
+                  </div>
+              </li>
+              <li class="nav-link" style="--i: 1.1s">
+                  <a href="#">Services</i></a>
+                  <div class="dropdown">
+                      <ul>
+                          <li class="dropdown-link">
+                              <a href="#">Link 1</a>
+                          </li>
+                          <li class="dropdown-link">
+                              <a href="#">Link 2</a>
+                          </li>
+                          <li class="dropdown-link">
+                              <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
+                              <div class="dropdown second">
+                                  <ul>
+                                      <li class="dropdown-link">
+                                          <a href="#">Link 1</a>
+                                      </li>
+                                      <li class="dropdown-link">
+                                          <a href="#">Link 2</a>
+                                      </li>
+                                      <li class="dropdown-link">
+                                          <a href="#">Link 3</a>
+                                      </li>
+                                      <li class="dropdown-link">
+                                          <a href="#">More<i class="fas fa-caret-down"></i></a>
+                                          <div class="dropdown second">
+                                              <ul>
+                                                  <li class="dropdown-link">
+                                                      <a href="#">Link 1</a>
+                                                  </li>
+                                                  <li class="dropdown-link">
+                                                      <a href="#">Link 2</a>
+                                                  </li>
+                                                  <li class="dropdown-link">
+                                                      <a href="#">Link 3</a>
+                                                  </li>
+                                                  <div class="arrow"></div>
+                                              </ul>
+                                          </div>
+                                      </li>
+                                      <div class="arrow"></div>
+                                  </ul>
+                              </div>
+                          </li>
+                          <li class="dropdown-link">
+                              <a href="#">Link 4</a>
+                          </li>
+                          <div class="arrow"></div>
+                      </ul>
+                  </div>
+              </li>
+              <li class="nav-link" style="--i: 1.35s">
+                  <a href="#">About</a>
+              </li>
+          </ul>
+      </div>
+
+  </div>
+
+  <div class="hamburger-menu-container">
+      <div class="hamburger-menu">
+          <div></div>
+      </div>
+  </div>
+</div>
 
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -76,44 +186,216 @@ h2{
 </header>
 <!-- !header -->
 <main id="main">
+  <!-- better -->
   <section class="Us-better p-5">
           <div class=" d-flex justify-content-center">
             <h2 class="text-black" style="font-weight: bold;">WHAT MAKES US BETTER?</h2>
           </div>
           <div class="container">
             <div class="row Uter justify-content-between">
-              <div class="col-md-3 bg-warning " style="height: 50vh;">
+              <div class="col-lg-3 col-md-6" style="height: 50vh;">
                 <div class="item">
                   <div class="row">
                     <div class="col-12" style="height: 25vh;">
                       <div class="text-center p-3">
                         <div class="circl">
-                          <span class="fa circle fa-thumbs-up" aria-hidden="true"></span>
+                          <span class="fa circle cir fa-thumbs-up" aria-hidden="true"></span>
                         </div>
                       </div>
-                     
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-12" style="height: 25vh;">
-
+                      <h3 class="text-center" style="font-weight: bold;">Equipement</h3>
+                      <p class="text-center my-4" style="line-height: 30px;">We’ve got everything a GYM-goer might ever need for a workout!</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 bg-warning"  style="height: 50vh;">
-
+              <div class="col-lg-3 col-md-6 "  style="height: 50vh;">
+                <div class="item">
+                  <div class="row">
+                    <div class="col-12" style="height: 25vh;">
+                      <div class="text-center p-3">
+                        <div class="circl">
+                          <span class="fa circle cir fa-user " aria-hidden="true"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12" style="height: 25vh;">
+                      <h3 class="text-center" style="font-weight: bold;">Instructions</h3>
+                      <p class="text-center my-4" style="line-height: 30px;">Our team of pros will help you trian better, faster, easier!</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-3 bg-warning" style="height:50vh;">
-
+              <div class="col-lg-3 col-md-6 " style="height:50vh;">
+                <div class="item">
+                  <div class="row">
+                    <div class="col-12" style="height: 25vh;">
+                      <div class="text-center p-3">
+                        <div class="circl">
+                          <span class="fa circle cir  fa-location-arrow" aria-hidden="true"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12" style="height: 25vh;">
+                      <h3 class="text-center" style="font-weight: bold;">Location</h3>
+                      <p class="text-center my-4" style="line-height: 30px;">With 3 locations across the state, we want everyone feel welcome!</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-3 bg-warning" style="height: 50vh;">
-
+              <div class="col-lg-3 col-md-6 " style="height: 50vh;">
+                <div class="item">
+                  <div class="row">
+                    <div class="col-12" style="height: 25vh;">
+                      <div class="text-center p-3">
+                        <div class="circl">
+                          <span class="fa circle cir fa-thumbs-up" aria-hidden="true"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12" style="height: 25vh;">
+                      <h3 class="text-center" style="font-weight: bold;">Course</h3>
+                      <p class="text-center my-4" style="line-height: 30px;">Ranging from Crossfit to weightlifting – we have it all here…</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
   </section>
+<!-- !better -->
+<!-- program  -->
+<section id="program " class="p-5 shadow">
+  <div class=" d-flex justify-content-center">
+    <h2 class="text-black" style="font-weight: bold;">OUR PROGRAMS</h2>
+  </div>
+    <div class="contr">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-6">
+              <img src="Assets/img/event1-905x905.jpg" class="img-fluid shadow" alt="">
+              <div class="overlay">
 
+              </div>
+            </div>
+            <div class="col-6">
+              <img src="Assets/img/event2-905x905.jpg" class="img-fluid shadow" alt="">
+            </div>
+          </div>
+          <div class="row my-4">
+            <div class="col-6">
+              <img src="Assets/img/event3-905x905.jpg" class="img-fluid shadow" alt="">
+            </div>
+            <div class="col-6">
+              <img src="Assets/img/event4-905x905.jpg" class="img-fluid shadow" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="box">
+            <img src="Assets/img/event5-905x905.jpg" class="img-fluid " alt="">
+            <div class="overlay">
+              Lorem ipsum dolor sit, amet consectetur adipisicing.
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+</section>
+<!-- !program -->
+<!-- table -->
+<section id="schedule" class="my-4">
+  <div class=" d-flex justify-content-center">
+    <h2 class="text-black" style="font-weight: bold;">GYM Schedule</h2>
+  </div>
+  <div class="container">
+    <table class=" table table-borderless table-light" >
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Monday</th>
+          <th scope="col">Tuesday</th>
+          <th scope="col">Wednesday</th>
+          <th scope="col">Thursday</th>
+          <th scope="col">Friday</th>
+          <th scope="col">Saturday</th>
+          <th scope="col">Sunday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">9:00</th>
+          <td rowspan="2" class="bg-success">Mark</td>
+          <td rowspan="2" class="bg-warning">Otto</td>
+          <td rowspan="2" class="bg-success">@mdo</td>
+          <td rowspan="2" class="bg-warning">@mdo</td>
+          <td rowspan="2" class="bg-success">@mdo</td>
+          <td rowspan="2" class="bg-warning">@mdo</td>
+          <td></td>
+
+        </tr>
+        <tr>
+          <th scope="row">10:00 </th>
+          <th></th>
+        </tr>
+        <tr>
+          <th scope="row">13:00</th>
+          <td></td>
+          <td rowspan="3">@twitter</td>
+          <td></td>
+          <td rowspan="3">@tester</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">14:00</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <!-- <td></td> -->
+          <!-- <td></td -->
+        </tr>
+        <tr>
+          <th scope="row">15:00</th>
+          <td rowspan="2">Larry the Bird</td>
+          <!-- <td></td> -->
+          <td rowspan="2">larry</td>
+          <!-- <td></td> -->
+          <td rowspan="2">larry</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">16:00</th>
+          <td ></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <!-- <td></td> -->
+          <!-- <td></td> -->
+        </tr>
+      </tbody>
+
+    </table>
+  </div>
+   
+</section>
+
+<!-- !table -->
 </main>
 <footer>
 
